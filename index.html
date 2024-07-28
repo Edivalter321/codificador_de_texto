@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="topo">
+        <img src="./Assets/Frame 6.png" alt="logo" />
+      </section>
+    </header>
+    <main>
+      <section class="main">
+        <div class="lado_a">
+          <div class="caixa_de_texto">
+            <textarea
+              name=""
+              id="inputText"
+              rows="4"
+              placeholder="Digite seu texto"
+            ></textarea>
+            <div class="nota_de_rodape">
+              <img src="./Assets/bi_exclamation-circle-fill.png" alt="" />
+              <p class="observacao">Apenas letras minuscúlas e sem acento.</p>
+            </div>
+          </div>
+          <div class="botoes">
+            <button onclick="encrypt()" class="botao_a">Criptografar</button>
+            <button onclick="decrypt()" class="botao_b">Descriptografar</button>
+          </div>
+        </div>
+        <div class="lado_b">
+          <img
+            class="imagem_pesquisa"
+            src="./Assets/High quality products 1 1.png"
+            alt=""
+          />
+          <p class="lado_b_text">Nenhuma mensagem encontrada</p>
+          <p class="lado_b_text2">
+            Digite um texto que você deseja criptografar ou descriptografar
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>Edivalter Nonato do Nascimento Junior</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
